@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
     <link href="./assets/css/normalize.css" rel="stylesheet" />
     <link href="./assets/css/reset.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/cabecera.css">
+    <link rel="stylesheet" href="./assets/css/cabecera/cabecera.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
     <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
     <link rel="stylesheet" href="./assets/css/sobre/sobre-descripcion.css">
+    <link rel="stylesheet" href="./assets/css/recetas/recetas.css">
+    <link rel="stylesheet" href="./assets/css/recetas/receta.css">
+    <link rel="stylesheet" href="./assets/css/recetas/receta-imagen.css">
+    <link rel="stylesheet" href="./assets/css/recetas/receta-titulo.css">
+    <link rel="stylesheet" href="./assets/css/recetas/receta-contenido.css">
+    <link rel="stylesheet" href="./assets/css/recetas/receta-boton.css">
 </head>
     <body>
         <header class="cabecera">
@@ -25,7 +31,7 @@
             <nav class="menu">
                 <ul class="menu__lista">
                     <li class="menu__item">
-                        <a class="menu__link--activo" href="#">Inicio</a>
+                        <a class="menu__link menu__link--activo" href="#">Inicio</a>
                     </li>
                     <li class="menu__item">
                         <a class="menu__link" href="#">Recetas</a>
@@ -46,6 +52,56 @@
         <section class="sobre">
             <h2 class="sobre__titulo">Recetas para economizar y ganar salud</h2>
             <p class="sobre__descripcion">Nuestras recetas te ayudan a aprovechar mejor los alimentos, economizar, ganar tiempo y practicida</p>
+        </section>
+        <section class="recetas">
+            <div class="receta">
+                <img class="receta__imagen" src="./assets/img/recetas/ensalada-de-frutas.jpg" alt="bol de aguacate">
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Bol de aguacate</h4>
+                    <p class="receta__descripcion">Receta refrescante llena de vitaminas para su desayuno</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img class="receta__imagen" src="./assets/img/recetas/ensalada-de-kiwi.jpg" alt="bol de aguacate">
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">ensalada-de-kiwi</h4>
+                    <p class="receta__descripcion">Receta refrescante llena de vitaminas para su desayuno</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img class="receta__imagen" src="./assets/img/recetas/mix-de-vegetales.jpg" alt="bol de aguacate">
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Mix de vegetales</h4>
+                    <p class="receta__descripcion">Receta refrescante llena de vitaminas para su desayuno</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img class="receta__imagen" src="./assets/img/recetas/pimentones-juliana.jpg" alt="bol de aguacate">
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Pimentones a la Juliana</h4>
+                    <p class="receta__descripcion">Receta refrescante llena de vitaminas para su desayuno</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img class="receta__imagen" src="./assets/img/recetas/plato-oriental.jpg" alt="bol de aguacate">
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Plato oriental</h4>
+                    <p class="receta__descripcion">Receta refrescante llena de vitaminas para su desayuno</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img class="receta__imagen" src="./assets/img/recetas/beterrabas-asadas.jpg" alt="bol de aguacate">
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Remolachas horneadas</h4>
+                    <p class="receta__descripcion">Receta refrescante llena de vitaminas para su desayuno</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
         </section>
     </body>
 </html>
