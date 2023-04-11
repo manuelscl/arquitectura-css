@@ -1,4 +1,16 @@
 .quienes {
-    padding: 5rem;
+    padding: 2.5rem 1rem;
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .quienes {
+        padding: 2.5rem 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .quienes {
+        padding: 2.5rem 4.5rem;
+    }
 }
