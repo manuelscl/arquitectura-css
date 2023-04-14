@@ -1,10 +1,31 @@
 .menu__link {
-    color: #808080;
+    display: block;
+    color: #616161;
     text-decoration: none;
+    padding: 12px;
+    border: 1px solid rgb(224, 216, 216);
+    border-radius: 4px;
+    transition: 0.3s ease;
 }
 .menu__link:hover {
-    text-decoration: underline;
+    color: black;
+    background: #e6e6e6;
 }
 .menu__link--activo {
-    color: #333333;
+    color: black;
+    border-color: black;
+}
+.menu__link--activo:hover {
+    background: #c7c7c7;
+}
+
+@media screen and (min-width: 768px) {
+    .menu__link {
+        padding: 0;
+        border: none;
+    }
+    .menu__link:hover {
+        background: none;
+        text-decoration: underline;
+    }
 }
